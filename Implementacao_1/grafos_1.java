@@ -1,19 +1,18 @@
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
-import java.io.RandomAccessFile;
 import java.util.Scanner;
 
 public class grafos_1 {
 
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
-        System.out.println("Digite o nome do arquivo (sem a extensão.txt)");
-        System.out.println("graph-test-100-1");
-        System.out.println("graph-test-50000-1");
+        System.out.println("Digite o nome de um dos arquivos a seguir");
+        System.out.println("graph-test-100-1.txt");
+        System.out.println("graph-test-50000-1.txt");
         System.out.print("Nome do arquivo: ");
 
-        String caminho = entrada.nextLine() + ".txt";
+        String caminho = entrada.nextLine();
         try (BufferedReader br = new BufferedReader(new FileReader(caminho))) {
             String linha = br.readLine();
             String[] valores_iniciais = linha.trim().split("\\s+");// espaçamento
@@ -88,17 +87,26 @@ public class grafos_1 {
             System.out.println("Digite o número de um vértice: ");
 
             int num = entrada.nextInt();
-            System.out.println("Vértice: " + num);
+            System.out.println("Informações do vértice [" + num + "]:");
             if (num < pointer.length - 1) {
                 int next = pointer[num];
-                int max = pointer[num + 1] - next;
-                System.out.println("[INFO] -> GRAU DE SAÍDA = " + max);
-                System.out.println("[INFO] -> SUCESSORES: ");
+                int max = pointer[num + 1] - next;//número de elementos entre o ponteiro atual e o próximo = grau de saída do vértice
+                System.out.println("[INFO] -> Grau de Saída = " + max);
+
+                int grau_entrada = 0;
+                for (int i = 1; i < destino.length; i++){
+                    if (destino[i] == num)
+                        grau_entrada++;
+                }
+
+                System.out.println("[INFO] -> Grau de Entrada = " + grau_entrada);
+                System.out.println("[INFO] -> Sucessores: ");
                 while (max > 0) {
                     System.out.println("[" + num + "] -> " + destino[next]);
                     next++;
                     max--;
                 }
+
             }
             System.out.println("Fim das informações desse vértice");
 
