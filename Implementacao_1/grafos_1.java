@@ -140,7 +140,7 @@ public class grafos_1 {
 
                 System.out.println("[INFO] -> Predecessores: ");
                 while (max > 0) {
-                    System.out.println("\t[" + num + "] <- " + arestas_vet[next].origem);
+                    System.out.println("\t" + arestas_vet[next].origem + " -> " + "[" + num + "]");
                     next++;
                     max--;
                 }
