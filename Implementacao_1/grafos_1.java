@@ -129,13 +129,13 @@ public class grafos_1 {
                         pos_atual_vet++; // atualizar a posição do vetor de origem para inserir um novo endereço
                     }
                 }
-                pointer[pos_atual_vet] = vertices + 1; // ultimo número = total de vertices + 1;
+                pointer[pos_atual_vet] = arestas + 1; // arestas + 1 porque o ponteiro final deve apontar para a posição imediatamente após a última aresta
 
                 // ponteiros processados com sucesso
 
                 // obter informações do vértice digitado (num)
                 next = pointer[num]; // obter o endereço na posição do vértice
-                max = pointer[num + 1] - next; // número de elementos entre o ponteiro atual e o próximo = grau de saída do vértice
+                max = pointer[num + 1] - next; // número de elementos entre o ponteiro atual e o próximo = grau de entrada do vértice 
                 System.out.println("\n[INFO] -> Grau de Entrada = " + max);
 
                 System.out.println("[INFO] -> Predecessores: ");
