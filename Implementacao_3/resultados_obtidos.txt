@@ -1,0 +1,129 @@
+run1
+Arquivo                     Vertices  TempoMedio(ms)      TamCaminho
+grafo_euleriano_1000.txt        1000           1,573              11
+grafo_euleriano_10000.txt      10000           5,646              16
+grafo_euleriano_25000.txt      25000           5,978               7
+grafo_euleriano_50000.txt      50000          24,436              16
+grafo_euleriano_100000.txt     100000          47,303              13
+grafo_arvore_1000.txt           1000           0,065              44
+grafo_arvore_10000.txt         10000           1,403             112
+grafo_arvore_25000.txt         25000           2,491             147
+grafo_arvore_50000.txt         50000           6,337             300
+grafo_arvore_100000.txt       100000          17,530             849
+
+run2
+Arquivo                     Vertices  TempoMedio(ms)      TamCaminho
+grafo_euleriano_1000.txt        1000           1,315              10
+grafo_euleriano_10000.txt      10000           6,511              16
+grafo_euleriano_25000.txt      25000          11,853              17
+grafo_euleriano_50000.txt      50000           6,400              13
+grafo_euleriano_100000.txt     100000          58,010              20
+grafo_arvore_1000.txt           1000           0,119              84
+grafo_arvore_10000.txt         10000           1,052             223
+grafo_arvore_25000.txt         25000           2,846             156
+grafo_arvore_50000.txt         50000           4,031             164
+grafo_arvore_100000.txt       100000          10,265             274
+
+run3
+Arquivo                     Vertices  TempoMedio(ms)      TamCaminho
+grafo_euleriano_1000.txt        1000           1,460              10
+grafo_euleriano_10000.txt      10000           5,319              12
+grafo_euleriano_25000.txt      25000           5,225               8
+grafo_euleriano_50000.txt      50000           9,453              14
+grafo_euleriano_100000.txt     100000          43,764              16
+grafo_arvore_1000.txt           1000           0,084              49
+grafo_arvore_10000.txt         10000           1,483             256
+grafo_arvore_25000.txt         25000           4,921             280
+grafo_arvore_50000.txt         50000           6,323             186
+grafo_arvore_100000.txt       100000          18,063             427
+
+run4
+Arquivo                     Vertices  TempoMedio(ms)      TamCaminho
+grafo_euleriano_1000.txt        1000           0,760               8
+grafo_euleriano_10000.txt      10000           3,394               8
+grafo_euleriano_25000.txt      25000          12,404              14
+grafo_euleriano_50000.txt      50000          18,231              15
+grafo_euleriano_100000.txt     100000          50,857              13
+grafo_arvore_1000.txt           1000           0,048              23
+grafo_arvore_10000.txt         10000           0,935             137
+grafo_arvore_25000.txt         25000           3,419             298
+grafo_arvore_50000.txt         50000           7,280             375
+grafo_arvore_100000.txt       100000           9,512             215
+
+run5
+Arquivo                     Vertices  TempoMedio(ms)      TamCaminho
+grafo_euleriano_1000.txt        1000           1,208              11
+grafo_euleriano_10000.txt      10000           5,285              13
+grafo_euleriano_25000.txt      25000          10,767              10
+grafo_euleriano_50000.txt      50000          28,082              17
+grafo_euleriano_100000.txt     100000          32,029              16
+grafo_arvore_1000.txt           1000           0,126              93
+grafo_arvore_10000.txt         10000           1,091             201
+grafo_arvore_25000.txt         25000           1,339              66
+grafo_arvore_50000.txt         50000           4,820             195
+grafo_arvore_100000.txt       100000           6,949             235
+
+run6
+Arquivo                     Vertices  TempoMedio(ms)      TamCaminho
+grafo_euleriano_1000.txt        1000           0,730               6
+grafo_euleriano_10000.txt      10000           5,293               9
+grafo_euleriano_25000.txt      25000           7,708              13
+grafo_euleriano_50000.txt      50000          28,420              18
+grafo_euleriano_100000.txt     100000          36,265              14
+grafo_arvore_1000.txt           1000           0,134              62
+grafo_arvore_10000.txt         10000           0,588              56
+grafo_arvore_25000.txt         25000           1,902             211
+grafo_arvore_50000.txt         50000           4,198             301
+grafo_arvore_100000.txt       100000          14,200             432
+
+run7
+Arquivo                     Vertices  TempoMedio(ms)      TamCaminho
+grafo_euleriano_1000.txt        1000           1,246               6
+grafo_euleriano_10000.txt      10000           6,150               7
+grafo_euleriano_25000.txt      25000           9,129              12
+grafo_euleriano_50000.txt      50000          24,241              15
+grafo_euleriano_100000.txt     100000          30,437              14
+grafo_arvore_1000.txt           1000           0,078              67
+grafo_arvore_10000.txt         10000           0,912              61
+grafo_arvore_25000.txt         25000           2,934             169
+grafo_arvore_50000.txt         50000           3,558             177
+grafo_arvore_100000.txt       100000          19,557             432
+
+run8
+Arquivo                     Vertices  TempoMedio(ms)      TamCaminho
+grafo_euleriano_1000.txt        1000           1,607              11
+grafo_euleriano_10000.txt      10000           5,570               9
+grafo_euleriano_25000.txt      25000          16,457              14
+grafo_euleriano_50000.txt      50000           7,920               9
+grafo_euleriano_100000.txt     100000          50,946              15
+grafo_arvore_1000.txt           1000           0,095              51
+grafo_arvore_10000.txt         10000           0,704              77
+grafo_arvore_25000.txt         25000           4,678             366
+grafo_arvore_50000.txt         50000          11,139             342
+grafo_arvore_100000.txt       100000          18,831             444
+
+run9
+Arquivo                     Vertices  TempoMedio(ms)      TamCaminho
+grafo_euleriano_1000.txt        1000           1,344              12
+grafo_euleriano_10000.txt      10000           6,417              18
+grafo_euleriano_25000.txt      25000          11,306              12
+grafo_euleriano_50000.txt      50000           7,201              10
+grafo_euleriano_100000.txt     100000          53,262              12
+grafo_arvore_1000.txt           1000           0,099              59
+grafo_arvore_10000.txt         10000           1,433             179
+grafo_arvore_25000.txt         25000           4,056             397
+grafo_arvore_50000.txt         50000           6,651             202
+grafo_arvore_100000.txt       100000           4,323             216
+
+run10
+Arquivo                     Vertices  TempoMedio(ms)      TamCaminho
+grafo_euleriano_1000.txt        1000           1,177               5
+grafo_euleriano_10000.txt      10000           3,211               8
+grafo_euleriano_25000.txt      25000          16,842              15
+grafo_euleriano_50000.txt      50000          17,870              12
+grafo_euleriano_100000.txt     100000          62,222              14
+grafo_arvore_1000.txt           1000           0,044              38
+grafo_arvore_10000.txt         10000           0,750             139
+grafo_arvore_25000.txt         25000           2,264             233
+grafo_arvore_50000.txt         50000           3,264             151
+grafo_arvore_100000.txt       100000          12,811             288
