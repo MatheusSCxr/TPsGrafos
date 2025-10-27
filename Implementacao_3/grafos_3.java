@@ -3,8 +3,14 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.*;
 
-
-
+/*
+ * Este código foi desenvolvido tomando como BASE o algoritmo de Dijkstra
+ * apresentado no GeeksForGeeks:
+ * https://www.geeksforgeeks.org/dsa/dijkstras-shortest-path-algorithm-greedy-algo-7/ (atualmente acessível apenas por VPN)
+ *
+ * Importante: o código original foi bastante modificado e adaptado para
+ * atender às necessidades específicas deste projeto (obter caminho mínimo, com o menor número de arestas).
+ */
 public class grafos_3 {
 
     //lista de adjacencia no formato de ArrayList<ArrayList<ArrayList<Integer>>>
